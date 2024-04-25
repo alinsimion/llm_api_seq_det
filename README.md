@@ -32,6 +32,23 @@ Each file has the following format:
 }
 ```
 
+## Count of samples with 1, 2, 3 or 4 responses
+
+Files [*mal_responses_count.json*](mal_responses_count.json), [*cln_responses_count.json*](cln_responses_count.json) and [*both_responses_count.json*](both_responses_count.json) contain the response counts for the malware samples, clean samples and all samples respectively. 
+
+Each file has the following format:
+
+```json
+{
+    "1": "int number of hashes for which only one model had a usable response",
+    "2": "int number of hashes for which two models had usable responses",
+    "3": "int number of hashes for which three models had usable responses",
+    "4": "int number of hashes for which four models had usable responses"
+    
+}
+```
+
+
 ## Models Performance
 
 Files [*mal_models_stats.json*](mal_models_stats.json), [*cln_models_stats.json*](cln_models_stats.json) and [*both_models_stats.json*](both_models_stats.json) contain the stats for the malware samples, clean samples and all samples respectively, grouped by each model.
@@ -42,8 +59,8 @@ Each file has the following format:
 {
     "model_name": {
         "total_responses": "The total number of responses",
-        "responses_with_match": "The total number of responses on witch the regexes matched",
-        "response_succes_rate": "The number of responses on witch the regexes matched divided by the total number of responses",
+        "responses_with_match": "The total number of responses on which the regexes matched",
+        "response_succes_rate": "The number of responses on which the regexes matched, divided by the total number of responses",
         "response_avg_duration": "The average duration of the responses (in seconds)",
         "total_duration": "The total time it took to get all responses from the models without retries due to errors or unusable responses(in seconds)",
         "avg_response_len": "The average response length of the models relative to the total number of responses",
@@ -137,5 +154,5 @@ Files have the following format:
 
 ## All samples
 
-Finally, all sample hashes are in the [*all_hashes.json*](all_hashes.json) file in the form of a list of strings.
+Finally, all sample hashes are in the [*all_hashes.json*](all_hashes.json) file in the form of a list of strings. All hashes are also available on https://virustotal.com for queries.
 
