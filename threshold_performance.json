@@ -1,0 +1,312 @@
+{
+    "5": {
+        "average": {
+            "FN": 258,
+            "FP": 19604,
+            "TN": 396,
+            "TP": 19703,
+            "accuracy": 0.5029653912564751,
+            "cln_samples": 20000,
+            "det_rate": 0.9870747958519113,
+            "fp_rate": 0.9802,
+            "mal_samples": 19961,
+            "total_samples": 39961
+        },
+        "llama2-13b": {
+            "FN": 8,
+            "FP": 19994,
+            "TN": 2,
+            "TP": 19950,
+            "accuracy": 0.4993742804224859,
+            "cln_samples": 19996,
+            "det_rate": 0.9995991582322878,
+            "fp_rate": 0.9998999799959992,
+            "mal_samples": 19958,
+            "total_samples": 39954
+        },
+        "mistral": {
+            "FN": 2973,
+            "FP": 15387,
+            "TN": 1975,
+            "TP": 14407,
+            "accuracy": 0.4715330147947729,
+            "cln_samples": 17362,
+            "det_rate": 0.8289413118527043,
+            "fp_rate": 0.8862458242138003,
+            "mal_samples": 17380,
+            "total_samples": 34742
+        },
+        "mixtral": {
+            "FN": 416,
+            "FP": 18659,
+            "TN": 644,
+            "TP": 18872,
+            "accuracy": 0.5057137674587339,
+            "cln_samples": 19303,
+            "det_rate": 0.9784321858150146,
+            "fp_rate": 0.9666373102626534,
+            "mal_samples": 19288,
+            "total_samples": 38591
+        },
+        "mixtral-fp16": {
+            "FN": 162,
+            "FP": 7568,
+            "TN": 437,
+            "TP": 6828,
+            "accuracy": 0.48449483161053686,
+            "cln_samples": 8005,
+            "det_rate": 0.976824034334764,
+            "fp_rate": 0.9454091193004373,
+            "mal_samples": 6990,
+            "total_samples": 14995
+        }
+    },
+    "6": {
+        "average": {
+            "FN": 1669,
+            "FP": 18066,
+            "TN": 1934,
+            "TP": 18292,
+            "accuracy": 0.5061434899026551,
+            "cln_samples": 20000,
+            "det_rate": 0.9163869545613947,
+            "fp_rate": 0.9033,
+            "mal_samples": 19961,
+            "total_samples": 39961
+        },
+        "llama2-13b": {
+            "FN": 26,
+            "FP": 19991,
+            "TN": 5,
+            "TP": 19932,
+            "accuracy": 0.4989988486759774,
+            "cln_samples": 19996,
+            "det_rate": 0.9986972642549353,
+            "fp_rate": 0.999749949989998,
+            "mal_samples": 19958,
+            "total_samples": 39954
+        },
+        "mistral": {
+            "FN": 4567,
+            "FP": 13798,
+            "TN": 3564,
+            "TP": 12813,
+            "accuracy": 0.4713890967704795,
+            "cln_samples": 17362,
+            "det_rate": 0.7372266973532796,
+            "fp_rate": 0.7947241101255615,
+            "mal_samples": 17380,
+            "total_samples": 34742
+        },
+        "mixtral": {
+            "FN": 644,
+            "FP": 18242,
+            "TN": 1061,
+            "TP": 18644,
+            "accuracy": 0.510611282423363,
+            "cln_samples": 19303,
+            "det_rate": 0.9666113645790129,
+            "fp_rate": 0.9450344506035331,
+            "mal_samples": 19288,
+            "total_samples": 38591
+        },
+        "mixtral-fp16": {
+            "FN": 237,
+            "FP": 7291,
+            "TN": 714,
+            "TP": 6753,
+            "accuracy": 0.4979659886628876,
+            "cln_samples": 8005,
+            "det_rate": 0.9660944206008584,
+            "fp_rate": 0.9108057464084947,
+            "mal_samples": 6990,
+            "total_samples": 14995
+        }
+    },
+    "7": {
+        "average": {
+            "FN": 5540,
+            "FP": 12952,
+            "TN": 7048,
+            "TP": 14421,
+            "accuracy": 0.5372488175971573,
+            "cln_samples": 20000,
+            "det_rate": 0.7224587946495666,
+            "fp_rate": 0.6476,
+            "mal_samples": 19961,
+            "total_samples": 39961
+        },
+        "llama2-13b": {
+            "FN": 10146,
+            "FP": 9669,
+            "TN": 10327,
+            "TP": 9812,
+            "accuracy": 0.5040546628622916,
+            "cln_samples": 19996,
+            "det_rate": 0.4916324280990079,
+            "fp_rate": 0.4835467093418684,
+            "mal_samples": 19958,
+            "total_samples": 39954
+        },
+        "mistral": {
+            "FN": 6971,
+            "FP": 11041,
+            "TN": 6321,
+            "TP": 10409,
+            "accuracy": 0.48154970928559093,
+            "cln_samples": 17362,
+            "det_rate": 0.5989067894131185,
+            "fp_rate": 0.6359290404331298,
+            "mal_samples": 17380,
+            "total_samples": 34742
+        },
+        "mixtral": {
+            "FN": 855,
+            "FP": 17880,
+            "TN": 1423,
+            "TP": 18433,
+            "accuracy": 0.514524111839548,
+            "cln_samples": 19303,
+            "det_rate": 0.9556719203649938,
+            "fp_rate": 0.9262808889809874,
+            "mal_samples": 19288,
+            "total_samples": 38591
+        },
+        "mixtral-fp16": {
+            "FN": 394,
+            "FP": 6803,
+            "TN": 1202,
+            "TP": 6596,
+            "accuracy": 0.5200400133377793,
+            "cln_samples": 8005,
+            "det_rate": 0.9436337625178827,
+            "fp_rate": 0.849843847595253,
+            "mal_samples": 6990,
+            "total_samples": 14995
+        }
+    },
+    "8": {
+        "average": {
+            "FN": 15376,
+            "FP": 1773,
+            "TN": 18227,
+            "TP": 4585,
+            "accuracy": 0.5708565851705413,
+            "cln_samples": 20000,
+            "det_rate": 0.2296979109263063,
+            "fp_rate": 0.08865,
+            "mal_samples": 19961,
+            "total_samples": 39961
+        },
+        "llama2-13b": {
+            "FN": 19926,
+            "FP": 34,
+            "TN": 19962,
+            "TP": 32,
+            "accuracy": 0.5004254893127096,
+            "cln_samples": 19996,
+            "det_rate": 0.0016033670708487824,
+            "fp_rate": 0.0017003400680136026,
+            "mal_samples": 19958,
+            "total_samples": 39954
+        },
+        "mistral": {
+            "FN": 11498,
+            "FP": 5872,
+            "TN": 11490,
+            "TP": 5882,
+            "accuracy": 0.5000287836048587,
+            "cln_samples": 17362,
+            "det_rate": 0.3384349827387802,
+            "fp_rate": 0.33820988365395693,
+            "mal_samples": 17380,
+            "total_samples": 34742
+        },
+        "mixtral": {
+            "FN": 2773,
+            "FP": 13077,
+            "TN": 6226,
+            "TP": 16515,
+            "accuracy": 0.5892824751885155,
+            "cln_samples": 19303,
+            "det_rate": 0.8562318540024886,
+            "fp_rate": 0.6774594622597524,
+            "mal_samples": 19288,
+            "total_samples": 38591
+        },
+        "mixtral-fp16": {
+            "FN": 1263,
+            "FP": 3768,
+            "TN": 4237,
+            "TP": 5727,
+            "accuracy": 0.6644881627209069,
+            "cln_samples": 8005,
+            "det_rate": 0.81931330472103,
+            "fp_rate": 0.47070580886945657,
+            "mal_samples": 6990,
+            "total_samples": 14995
+        }
+    },
+    "9": {
+        "average": {
+            "FN": 19957,
+            "FP": 12,
+            "TN": 19988,
+            "TP": 4,
+            "accuracy": 0.5002877805860714,
+            "cln_samples": 20000,
+            "det_rate": 0.00020039076198587245,
+            "fp_rate": 0.0006,
+            "mal_samples": 19961,
+            "total_samples": 39961
+        },
+        "llama2-13b": {
+            "FN": 19937,
+            "FP": 33,
+            "TN": 19963,
+            "TP": 21,
+            "accuracy": 0.5001752014817039,
+            "cln_samples": 19996,
+            "det_rate": 0.0010522096402445136,
+            "fp_rate": 0.0016503300660132027,
+            "mal_samples": 19958,
+            "total_samples": 39954
+        },
+        "mistral": {
+            "FN": 14149,
+            "FP": 2770,
+            "TN": 14592,
+            "TP": 3231,
+            "accuracy": 0.51301018939612,
+            "cln_samples": 17362,
+            "det_rate": 0.18590333716915997,
+            "fp_rate": 0.15954383135583458,
+            "mal_samples": 17380,
+            "total_samples": 34742
+        },
+        "mixtral": {
+            "FN": 8297,
+            "FP": 4133,
+            "TN": 15170,
+            "TP": 10991,
+            "accuracy": 0.6779041745484699,
+            "cln_samples": 19303,
+            "det_rate": 0.5698361675653256,
+            "fp_rate": 0.21411179609387143,
+            "mal_samples": 19288,
+            "total_samples": 38591
+        },
+        "mixtral-fp16": {
+            "FN": 3156,
+            "FP": 935,
+            "TN": 7070,
+            "TP": 3834,
+            "accuracy": 0.7271757252417472,
+            "cln_samples": 8005,
+            "det_rate": 0.5484978540772533,
+            "fp_rate": 0.11680199875078076,
+            "mal_samples": 6990,
+            "total_samples": 14995
+        }
+    }
+}

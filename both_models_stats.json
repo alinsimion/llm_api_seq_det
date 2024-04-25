@@ -1,0 +1,34 @@
+{
+    "llama2-13b": {
+        "total_responses": 39961,
+        "responses_with_match": 39954,
+        "response_succes_rate": 99.98248292084783,
+        "response_avg_duration": 14.053627224351738,
+        "total_duration": 561596.9975123198,
+        "avg_response_len": 518.8531067791097
+    },
+    "mistral": {
+        "total_responses": 39961,
+        "responses_with_match": 34742,
+        "response_succes_rate": 86.93976627211532,
+        "response_avg_duration": 10.998659641609036,
+        "total_duration": 439506.4392786971,
+        "avg_response_len": 155.28450950950952
+    },
+    "mixtral-fp16": {
+        "total_responses": 39961,
+        "responses_with_match": 14995,
+        "response_succes_rate": 37.52408598383424,
+        "response_avg_duration": 47.84106697242435,
+        "total_duration": 737039.4777771696,
+        "avg_response_len": 546.9191224198364
+    },
+    "mixtral": {
+        "total_responses": 39961,
+        "responses_with_match": 38591,
+        "response_succes_rate": 96.57165736593178,
+        "response_avg_duration": 12.975442412862787,
+        "total_duration": 514268.6845914037,
+        "avg_response_len": 739.3187667154464
+    }
+}
